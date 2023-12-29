@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AForge" Version="2.2.5" />
+    <PackageReference Include="AForge.Imaging" Version="2.2.5" />
+    <PackageReference Include="IronOcr" Version="2023.12.34" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="lib\" />
+  </ItemGroup>
+
+</Project>
